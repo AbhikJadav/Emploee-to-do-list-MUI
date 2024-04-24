@@ -1,0 +1,28 @@
+.headerBtnWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  margin: 20px;
+}
+.actionButtonWrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 9px;
+  .deleteBtnWrapper {
+    &:hover {
+      cursor: pointer;
+      
+    }
+  }
+  .editBtnWrapper {
+    &:hover {
+      cursor: pointer;
+      
+    }
+  }
+}
+.formFiledWrapper {
+  margin: 10px;
+}
